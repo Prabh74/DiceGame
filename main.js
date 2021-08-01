@@ -1,3 +1,7 @@
+document.querySelector("button").addEventListener("click" , play)
+
+
+function play() {
     var player1Score = Math.floor(Math.random()*6) + 1 ;
     var player2Score = Math.floor(Math.random()*6) + 1 ;
 
@@ -16,3 +20,4 @@
     else if(player1Score === player2Score){
         document.querySelector(".changingText").textContent="Draw";
     }
+}
