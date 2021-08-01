@@ -1,0 +1,56 @@
+/* color hexcodes (dark to light) 334257 476072 548CA8 EEEEEE */
+
+body{
+    background-color: #EEEEEE;
+    font-family: 'Raleway', sans-serif;
+    color: #334257;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    padding: 30px;
+}
+
+
+h2{
+    font-size: 2.5rem; 
+}
+
+a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+a:hover{
+    color: #F67280;
+}
+
+.ContactLinks{
+    margin: 0px 10px 0px;
+}
+
+.footer{
+margin: 0;
+margin-top:50px ;
+background-color: #334257;
+color: #EEEEEE;
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+
+}
+
+.changingText{
+    font-family: 'Dancing Script', cursive;
+}
+
+.container-fluid{
+ margin-top: 50px;   
+}
+
+.row{
+    padding-top: 20px;
+}
+
